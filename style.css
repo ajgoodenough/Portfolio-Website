@@ -1,11 +1,9 @@
-background, height, margin, padding
-
-
 h1 {
   color: burlywood;
   font-family: 'Courier New', Courier, monospace;
   font-size: 48px;
   letter-spacing: 10px;
+  padding-top: 50px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -13,6 +11,8 @@ h1 {
 h2 {
   color: brown;
   font-family: 'Times New Roman', Times, serif;
+  margin: 10px 0 0 0;
+
 }
 
 h3 {
@@ -23,4 +23,25 @@ h3 {
 p {
   color: grey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 0 0 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+header {
+	height: 120px;
+	background-color: #fff;
+}
+
+main {
+	padding-top: 60px;
+	min-height: 400px;
+}
+
+footer {
+	height: 100px;
+	background-color: #bdcbd9;
+	text-align: center;
 }
