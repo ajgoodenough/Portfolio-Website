@@ -1,3 +1,5 @@
+/* Main text editing*/
+
 h1 {
   color: darkblue;
   font-family: 'Courier New', Courier, monospace;
@@ -20,11 +22,18 @@ h3 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+li {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 p {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px 0 0 20px;
 }
+
+/* Main text editing */
 
 body {
 	background-color: #fff;
@@ -53,4 +62,25 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+/* Links */
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: cyan;
+}
+
+/* selected link */
+a:active {
+  color: red;
 }
