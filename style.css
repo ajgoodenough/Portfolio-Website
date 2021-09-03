@@ -1,5 +1,4 @@
-background, color, font-family, font-size,
-height, margin, padding, text-align
+background, height, margin, padding
 
 
 h1 {
@@ -7,7 +6,7 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 48px;
   letter-spacing: 10px;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
 }
 
